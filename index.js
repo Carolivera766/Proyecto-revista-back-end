@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const PORT = process.env.PORT || 3000;
-const CORS_ORIGIN = process.env.CORS_ORIGIN || "http://localhost:5500";
+const CORS_ORIGIN = process.env.CORS_ORIGIN || "http://127.0.0.1:5500";
 // ── MIDDLEWARES ──────────────────────────────────────────
 app.use(cors({ origin: CORS_ORIGIN }));
 app.use(express.json());
@@ -12,33 +12,82 @@ app.use(express.json());
 // Reemplazar con los artículos reales del grupo
 const articulos = [
   {
-    id: 1,
-    titulo: "Titulo del primer artículo",
-
-    autor: "Nombre Apellido",
-    categoria: "Categoria",
-    descripcion: "Descripcion breve del artículo.",
-  },
-  {
-    id: 2,
-    titulo: "Titulo del segundo artículo",
-    autor: "Nombre Apellido",
-    categoria: "Categoria",
-    descripcion: "Descripcion breve del artículo.",
-  },
-  {
     id: 3,
-    titulo: "Titulo del tercer artículo",
-    autor: "Nombre Apellido",
-    categoria: "Categoria",
-    descripcion: "Descripcion breve del artículo.",
+    titulo: "Palacio Legislativo",
+    categoria: "Historia",
+    imagen: "img/palacio.jpg",
+    resumen: "Uno de los edificios más emblemáticos del país.",
+    introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
+    historia: "El origen de este sitio se encuentra ligado...",
+    caracteristicas: "Entre los aspectos más destacados...",
+    importancia: "Actualmente este sitio sigue ocupando...",
+    conclusion: "La historia de este lugar demuestra...",
   },
   {
     id: 4,
-    titulo: "Titulo del cuarto artículo",
-    autor: "Nombre Apellido",
-    categoria: "Categoria",
-    descripcion: "Descripcion breve del artículo.",
+    titulo: "Parque Rodó",
+    categoria: "Naturaleza",
+    imagen: "img/parque.jpg",
+    resumen: "un parque emblemático de Montevideo",
+    introduccion:
+      "Este lugar es un refugio de tranquilidad en medio de la ciudad...",
+    historia: "El origen de este sitio se encuentra ligado...",
+    caracteristicas: "Entre los aspectos más destacados...",
+    importancia: "Actualmente este sitio sigue ocupando...",
+    conclusion: "La historia de este lugar demuestra...",
+  },
+  {
+    id: 3,
+    titulo: "Palacio Legislativo",
+    categoria: "Historia",
+    imagen: "img/palacio.jpg",
+    resumen: "Uno de los edificios más emblemáticos del país.",
+    introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
+    historia: "El origen de este sitio se encuentra ligado...",
+    caracteristicas: "Entre los aspectos más destacados...",
+    importancia: "Actualmente este sitio sigue ocupando...",
+    conclusion: "La historia de este lugar demuestra...",
+  },
+  {
+    id: 4,
+    titulo: "Parque Rodó",
+    categoria: "Naturaleza",
+    imagen: "img/parque.jpg",
+    resumen: "un parque emblemático de Montevideo",
+    introduccion:
+      "Este lugar es un refugio de tranquilidad en medio de la ciudad...",
+    historia:
+      "El parque fue creado en el siglo XX como un espacio de recreación...",
+    caracteristicas:
+      "Entre sus atractivos se encuentran los jardines y el lago...",
+    importancia:
+      "El parque es un punto de encuentro importante para los habitantes de Montevideo...",
+    conclusion:
+      "La historia de este lugar demuestra la importancia de los espacios verdes en la vida urbana...",
+  },
+  {
+    id: 3,
+    titulo: "Palacio Legislativo",
+    categoria: "Historia",
+    imagen: "img/palacio.jpg",
+    resumen: "Uno de los edificios más emblemáticos del país.",
+    introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
+    historia: "El origen de este sitio se encuentra ligado...",
+    caracteristicas: "Entre los aspectos más destacados...",
+    importancia: "Actualmente este sitio sigue ocupando...",
+    conclusion: "La historia de este lugar demuestra...",
+  },
+  {
+    id: 3,
+    titulo: "Palacio Legislativo",
+    categoria: "Historia",
+    imagen: "img/palacio.jpg",
+    resumen: "Uno de los edificios más emblemáticos del país.",
+    introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
+    historia: "El origen de este sitio se encuentra ligado...",
+    caracteristicas: "Entre los aspectos más destacados...",
+    importancia: "Actualmente este sitio sigue ocupando...",
+    conclusion: "La historia de este lugar demuestra...",
   },
 ];
 // ── RUTAS ────────────────────────────────────────────────
@@ -47,7 +96,7 @@ app.get("/articulos", (req, res) => {
   res.json(articulos);
 });
 // GET /articulos/:id → devuelve un artículo por id
-app.get("/articulos/:id", (req, res) => {
+app.get("/articulo/:id", (req, res) => {
   const id = Number(req.params.id);
   const articulo = articulos.find((a) => a.id === id);
   if (!articulo) {
