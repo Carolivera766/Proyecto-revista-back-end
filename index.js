@@ -12,8 +12,8 @@ app.use(express.json());
 // Reemplazar con los artículos reales del grupo
 const articulos = [
   {
-    id: 3,
-    titulo: "Palacio Legislativo",
+    id: 1,
+    titulo: "Plaza Independencia",
     categoria: "Historia",
     imagen: "img/palacio.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
@@ -24,9 +24,9 @@ const articulos = [
     conclusion: "La historia de este lugar demuestra...",
   },
   {
-    id: 4,
+    id: 2,
     titulo: "Parque Rodó",
-    categoria: "Naturaleza",
+    categoria: "Social",
     imagen: "img/parque.jpg",
     resumen: "un parque emblemático de Montevideo",
     introduccion:
@@ -38,8 +38,8 @@ const articulos = [
   },
   {
     id: 3,
-    titulo: "Palacio Legislativo",
-    categoria: "Historia",
+    titulo: "Skatepark Buceo",
+    categoria: "Cultural",
     imagen: "img/palacio.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
@@ -50,8 +50,8 @@ const articulos = [
   },
   {
     id: 4,
-    titulo: "Parque Rodó",
-    categoria: "Naturaleza",
+    titulo: "Palacio Legislativo",
+    categoria: "Institucional",
     imagen: "img/parque.jpg",
     resumen: "un parque emblemático de Montevideo",
     introduccion:
@@ -66,9 +66,9 @@ const articulos = [
       "La historia de este lugar demuestra la importancia de los espacios verdes en la vida urbana...",
   },
   {
-    id: 3,
-    titulo: "Palacio Legislativo",
-    categoria: "Historia",
+    id: 5,
+    titulo: "Estacion Peñarol",
+    categoria: "Industrial",
     imagen: "img/palacio.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
@@ -78,9 +78,9 @@ const articulos = [
     conclusion: "La historia de este lugar demuestra...",
   },
   {
-    id: 3,
-    titulo: "Palacio Legislativo",
-    categoria: "Historia",
+    id: 6,
+    titulo: "Tu Artículo",
+    categoria: "Tu artículo",
     imagen: "img/palacio.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
