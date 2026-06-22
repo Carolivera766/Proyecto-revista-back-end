@@ -13,7 +13,7 @@ app.use(express.json());
 const articulos = [
   {
     id: 3,
-    titulo: "Palacio Legislativo",
+    titulo: "Palaza Independencia",
     categoria: "Historia",
     imagen: "img/palacio.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
@@ -25,8 +25,8 @@ const articulos = [
   },
   {
     id: 4,
-    titulo: "Parque Rodó",
-    categoria: "Naturaleza",
+    titulo: "Estación Peñarol",
+    categoria: "Industrial",
     imagen: "img/parque.jpg",
     resumen: "un parque emblemático de Montevideo",
     introduccion:
@@ -38,9 +38,9 @@ const articulos = [
   },
   {
     id: 3,
-    titulo: "Palacio Legislativo",
-    categoria: "Historia",
-    imagen: "img/palacio.jpg",
+    titulo: "Skatepark Buceo",
+    categoria: "Cultural",
+    imagen: "/proyecto-revista-Front-end-/img/palacio.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
     historia: "El origen de este sitio se encuentra ligado...",
@@ -66,22 +66,10 @@ const articulos = [
       "La historia de este lugar demuestra la importancia de los espacios verdes en la vida urbana...",
   },
   {
-    id: 3,
+    id: 5,
     titulo: "Palacio Legislativo",
     categoria: "Historia",
-    imagen: "img/palacio.jpg",
-    resumen: "Uno de los edificios más emblemáticos del país.",
-    introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
-    historia: "El origen de este sitio se encuentra ligado...",
-    caracteristicas: "Entre los aspectos más destacados...",
-    importancia: "Actualmente este sitio sigue ocupando...",
-    conclusion: "La historia de este lugar demuestra...",
-  },
-  {
-    id: 3,
-    titulo: "Palacio Legislativo",
-    categoria: "Historia",
-    imagen: "img/palacio.jpg",
+    imagen: "/proyecto-revista-Front-end-/img/palacio.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
     historia: "El origen de este sitio se encuentra ligado...",
