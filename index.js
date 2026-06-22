@@ -12,10 +12,11 @@ app.use(express.json());
 // Reemplazar con los artículos reales del grupo
 const articulos = [
   {
-    id: 3,
+    id: 1,
     titulo: "Palaza Independencia",
     categoria: "Historia",
-    imagen: "img/palacio.jpg",
+    imagen: "/proyecto-revista-Front-end-/img/plaza-antes.jpg",
+    imagenHover: "/proyecto-revista-Front-end-/img/plaza-ahora.avif",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
     historia: "El origen de este sitio se encuentra ligado...",
@@ -24,10 +25,11 @@ const articulos = [
     conclusion: "La historia de este lugar demuestra...",
   },
   {
-    id: 4,
+    id: 2,
     titulo: "Estación Peñarol",
     categoria: "Industrial",
-    imagen: "img/parque.jpg",
+    imagen: "/proyecto-revista-Front-end-/img/estacion.jpg",
+    imagenHover: "/proyecto-revista-Front-end-/img/estacion-actual.webp",
     resumen: "un parque emblemático de Montevideo",
     introduccion:
       "Este lugar es un refugio de tranquilidad en medio de la ciudad...",
@@ -40,7 +42,8 @@ const articulos = [
     id: 3,
     titulo: "Skatepark Buceo",
     categoria: "Cultural",
-    imagen: "/proyecto-revista-Front-end-/img/palacio.jpg",
+    imagen: "/proyecto-revista-Front-end-/img/skate-antes.jpg",
+    imagenHover: "/proyecto-revista-Front-end-/img/skate-actual.jpeg",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
     historia: "El origen de este sitio se encuentra ligado...",
@@ -52,7 +55,8 @@ const articulos = [
     id: 4,
     titulo: "Parque Rodó",
     categoria: "Naturaleza",
-    imagen: "img/parque.jpg",
+    imagen: "/proyecto-revista-Front-end-/img/parque-rodo.jpg",
+    imagenHover: "/proyecto-revista-Front-end-/img/parque-ahora.webp",
     resumen: "un parque emblemático de Montevideo",
     introduccion:
       "Este lugar es un refugio de tranquilidad en medio de la ciudad...",
@@ -70,6 +74,7 @@ const articulos = [
     titulo: "Palacio Legislativo",
     categoria: "Historia",
     imagen: "/proyecto-revista-Front-end-/img/palacio.jpg",
+    imagenHover: "/proyecto-revista-Front-end-/img/palacio-actual.jpg",
     resumen: "Uno de los edificios más emblemáticos del país.",
     introduccion: "Este lugar forma parte de la identidad urbana de Uruguay...",
     historia: "El origen de este sitio se encuentra ligado...",
