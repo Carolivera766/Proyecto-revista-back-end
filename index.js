@@ -30,7 +30,8 @@ const articulos = [
     categoria: "Industrial",
     imagen: "/proyecto-revista-Front-end-/img/estacion.jpg",
     imagenHover: "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-    resumen: "un parque emblemático de Montevideo",
+    resumen:
+      "un parque emblemático de Montevideo Este lugar es un refugio de tranquilidad en medio de la ciudad...",
     introduccion:
       "Este lugar es un refugio de tranquilidad en medio de la ciudad...",
     historia: "El origen de este sitio se encuentra ligado...",
