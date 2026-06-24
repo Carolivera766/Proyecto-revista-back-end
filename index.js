@@ -62,20 +62,40 @@ const articulos = [
   {
     id: 4,
     titulo: "Parque Rodó",
+    subtitulo:
+      "Parque Rodó : el pulmón verde de Montevideo que combina historia, cultura y diversión",
+    autor: "por Alexandra Rivero",
     categoria: "Naturaleza",
     imagen: "/proyecto-revista-Front-end-/img/parque-rodo.jpg",
     imagenHover: "/proyecto-revista-Front-end-/img/parque-ahora.webp",
-    resumen: "un parque emblemático de Montevideo",
+    resumen:
+      "Un parque donde el pasado y el presente se encuentran bajo los árboles",
     introduccion:
-      "Este lugar es un refugio de tranquilidad en medio de la ciudad...",
+      "El parque José Enrique Rodó , conocido popularmente como Parque Rodó, es uno de los paseos más tradicionales y queridos de Montevideo.  Con un tamaño de 42 hectáreas este maravilloso espacio verde forma parte del patrimonio recreativo y cultural de la ciudad. ",
     historia:
-      "El parque fue creado en el siglo XX como un espacio de recreación...",
+      "Su creación se originó a finales del siglo XIX cuando terrenos del Banco Nacional pasaron a la administración pública y comenzaron a trazar lo que entonces se llamó el Parque Urbano. Los trazos fueron obra de los arquitectos franceses Carlos Thays y Carlos Racine en 1900 y 1902. El parque fue inaugurado oficialmente el 25 de agosto de 1903 y , catorce años más tarde, en 1917 adoptó su nombre actual en homenaje a la muerte del escritor José Enrique Rodó, autor del célebre ensayo Ariel y una de las figuras intelectuales más destacadas de América Latina , fallecido ese mismo año.",
+
     caracteristicas:
-      "Entre sus atractivos se encuentran los jardines y el lago...",
+      "Con el tiempo el parque fue acumulando una notable cantidad de estatuas y monumentos, convirtiéndo se en uno de los lugares públicos con la mayor concentración de obras escultóricas. El monumento central es, naturalmente el dedicado al propio Rodó. Encargado al escultor nacional Jose Belloni y fue inaugurado el 27 de febrero de 1947. Entre sus obras más destacadas se encuentra el Lago artificial, construido sobre antiguas canteras de piedra, que sigue siendo su pieza central. El Castillo, levantado en 1903, alberga desde 1935 la primera biblioteca infantil de América Latina, mientras que el Pabellón de la Música con los nombres de Beethoven, Mozart y Wagner grabados en su fachada evoca la aspiración cultural de aquella época. Completa el conjunto escultórico La Source, una figura femenina en hierro fundido y bronce del artista francés Louis Sauvageau, fabricada en 1862 y traída como parte del afán de embellecer el parque al estilo europeo.La Vegetación del parque no es casualidad, es resultado de una decisión estética y filosófica . Thays y Racine combinaron especies ornamentales traídas de Europa, como sauces llorones, plátanos, tipas y eucaliptos , con flora nativa Uruguaya. Su lago artificial, corazón del paisaje, cuenta con cuatro islas donde crecen plantas como carqueja, mburucuyá, chilcas y verbenas, y sirve de refugio permanente para diversas aves acuáticas. En 2024, un proyecto impulsado por el Presupuesto Participativo transformó esas islas en una pequeña reserva natural urbana, incorporando nuevas especies orientadas a atraer picaflores y mariposas. Así, entre los juegos mecánicos y los monumentos, el parque alberga también un ecosistema vivo que pocas veces recibe la atención que merece.",
+
     importancia:
-      "El parque es un punto de encuentro importante para los habitantes de Montevideo...",
-    conclusion:
-      "La historia de este lugar demuestra la importancia de los espacios verdes en la vida urbana...",
+      "Lo que distingue al Parque Rodó de cualquier otro espacio verde de Montevideo es que este parque brinda naturaleza, cultura y recreación en un solo lugar.  En el mismo predio donde se puede caminar entre monumentos centenarios y sentarse frente al lago, a pocos metros funciona el único parque de diversiones mecánicas de Montevideo con más de un siglo de historia, cuya primera atracción fue la montaña rusa de 1889 antes de que incluso el parque tuviera su nombre actual. En este 2026 el parque tuvo una gran renovación, incorporando una Torre de caída libre con 27 metros de altura, una nueva montaña rusa ( la cual no volvía desde 2013) y juegos como UFO 3D, spin y saltamontes. Sin dejar atrás a los irremplazables juegos clásicos como el mambo, los autitos chocadores y el 360. Estas atracciones convocan a familias enteras a disfrutar de lo que fue y lo que es.",
+
+    conclusion: "falta terminarla ",
+    title: "The Rambla as an Extension of Parque Rodó",
+    introduction:
+      "For many, the walk through the Park does not end there but continues naturally along the Rambla. Every city has its symbols. And the rambla is one of the most defining features of Montevideo. A meeting point between the city and the Río de la Plata that invites aerobic circuits, amateur fishing, and long open-air walks.Its 300 football fields of coastal walkway make it one of the largest socialized coastal spaces in the world.",
+
+    history:
+      "Its history begins in the nineteen twenties, when building it was a colossal undertaking, even by the standards of the time. The dimensions of the Rambla Sur stretch as far as forty city blocks launched into the water, with a width of ten cars parked side by side, a surface area equivalent to a concrete mountain the size of ten stacked buildings, and nearly 18 hectares reclaimed from the river. It was born as a symbol of modernity and as a response to concrete urban needs: to define the city's maritime boundary, improve access to neighborhoods far from the center, and create public spaces where workers could enjoy their free time.",
+
+    characteristic:
+      " The rambla encompasses several landmarks, including Playa Ramírez, the point where the green of the trees merges with the horizon of the Río de la Plata. Uses overlap without conflict and without anyone planning it. As architect Ernesto Spósito, director of the Intendencia's Heritage Unit, points out, any Montevidean or visitor naturally feels they can go there and claim the space as their own, experiencing heritage as a citizen's right.Just like the Sarandí Breakwater, natural extension of the homonymous street that is born at the Gate of the Citadel and goes several meters into the river. Place of fishermen and ships entering the port, the breakwater also holds a deep memory: the neighborhood that surrounds it, Guruyú, was the scene of the first celebrations of enslaved Africans in colonial times, and today the drums still resound there.",
+
+    importance:
+      "The rambla is one of those works a city does not know it needs until it has it. In a world where public space is increasingly privatized or left to deteriorate, Montevideo preserves something extraordinary: 30 kilometers where no one is out of place. Its value lies not only in the concrete or the view of the river, but in what happens there every day without anyone organizing it. That is difficult to build, and even harder to maintain. Montevideo, for now, manages it.",
+
+    end: "",
   },
   {
     id: 5,
