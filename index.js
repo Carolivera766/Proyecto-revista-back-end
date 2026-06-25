@@ -45,23 +45,52 @@ const articulos = [
   {
     id: 2,
     titulo: "Estación Peñarol",
-    subtitulo: "",
+    subtitulo: "Vapor, Hierro y Barrio",
+    autor: "Por Carolina Olivera",
     categoria: "Industrial",
+
     imagen: "/proyecto-revista-Front-end-/img/estacion.jpg",
     imagenHover: "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-    resumen: "un parque emblemático de Montevideo",
-    introduccion:
-      "Este lugar es un refugio de tranquilidad en medio de la ciudad...",
-    historia: "El origen de este sitio se encuentra ligado...",
-    caracteristicas: "Entre los aspectos más destacados...",
-    importancia: "Actualmente este sitio sigue ocupando...",
-    conclusion: "La historia de este lugar demuestra...",
-    title: "",
-    introduction: "",
-    history: "",
-    characteristic: "",
-    importance: "",
-    end: "",
+
+    resumen:
+      "La Estación Peñarol y su complejo ferroviario transformaron la forma de trabajar y vivir en Uruguay.",
+
+    datos: {
+      ubicacion: "Montevideo",
+      fundacion: "1891",
+      tipo: "Patrimonio Industrial",
+    },
+
+    galeria: ["/img/estacion1.jpg", "/img/estacion2.jpg", "/img/estacion3.jpg"],
+
+    resenaES: {
+      subtitulo: "Vapor, Hierro y Barrio",
+      autor: "Por Carolina Olivera",
+      introduccion:
+        "La Estación Peñarol, junto con sus talleres, viviendas obreras y conjunto ferroviario, no es solo un edificio histórico, es el punto de partida de una cadena de transformaciones que modificó para siempre la forma en que los uruguayos vivían, trabajaban y se organizaban en sociedad. Esta reseña histórica recorre ese proceso: desde la llegada del ferrocarril inglés a mediados del siglo XIX hasta la declaración del barrio como Patrimonio Histórico Nacional en 2012, analizando su impacto cultural y social en la identidad uruguaya.",
+      historia:
+        "Durante la segunda mitad del siglo XIX, Uruguay experimentó un periodo de modernización impulsado por la expansión de los medios de transporte y comunicación. El país buscaba insertarse en la economía mundial, y la inversión extranjera llegó cargada de maquinaria, capitales y trabajadores especializados. En ese contexto, un paraje llamado “Pinerolo”, ubicado a unos diez kilómetros al norte del centro de Montevideo, pasó de ser una zona de quintas y chacras a convertirse en uno de los principales centros industriales del país. La zona era conocida como “Pinarolo”, en referencia a la ciudad italiana de donde provenía Giovanni Battista Crosa, un inmigrante piamontés que instaló allí una pulpería en 1776.  La historia comenzó a cambiar en 1866, año en el que se fundó la sociedad anónima “Ferrocarril Central del Uruguay”, de capitales nacionales, responsable en 1869 de la primera corrida de trenes en Uruguay, entre lo que hoy conocemos como Carnelli y Las Piedras. Nueve años después, en 1878, esa empresa fue adquirida por capitales ingleses y pasó a llamarse Central Uruguay Railway (CUR). Con los nuevos dueños llegó también una nueva ambición: construir los talleres ferroviarios más grandes del país.    En 1890, la compañía inglesa decide trasladar sus talleres principales desde Bella Vista hacia Peñarol, donde el espacio disponible era mayor y el terreno más adecuado para un complejo industrial de gran escala (el nuevo predio de 17 hectáreas, con 22 mil metros cuadrados de taller, permitía construir instalaciones mucho más grandes). Al año siguiente, en 1891, la estación abrió sus puertas. Ese    año marca el verdadero nacimiento del barrio peñarol tal como lo conocemos; no como un asentamiento espontáneo, sino como un proyecto industrial planificado.    Lo que hizo única a la Estación Peñarol no fue solo su función ferroviaria, sino el entorno social que formó a su alrededor. La empresa construyó una ciudad dentro de la ciudad. Siguiendo el modelo inglés de las “factory towns” (ciudad fábrica donde la empresas provee viviendas, servicios y esparcimiento a sus trabajadores), la Central Uruguay Railway levantó un conjunto único en América Latina",
+      caracteristicas:
+        " El conjunto edilicio incluyó una planificación urbana muy elaborada para la época: viviendas diferenciadas según la jerarquía del trabajador; 44 viviendas para obreros y empleados y 8 residencias separadas para el personal superior, una plaza pública, un almacén de ramos generales, el Centro Artesano como espacio cultural y de formación técnica, un puente peatonal y los propios talleres de reparación de locomotoras.  Para 1910, el complejo ferroviario empleaba a cerca de 2000 personas y era el mayor centro industrial del Uruguay. ",
+      importancia:
+        "La influencia del complejo también fue profunda en el plano social y cultural. Los trabajadores desarrollaron formas de organización colectiva que contribuyeron al surgimiento  del movimiento sindical uruguayo, y fue en ese mismo contexto que, el 28 de setiembre de 1891, en el Centro Artesano, los propios empleados de la compañía fundaron el Central Uruguay Railway Cricket Club, institución que décadas después se convirtieron en el Club Atlético Peñarol, uno de los clubes más laureados de América del Sur.    Con el paso del tiempo, el ferrocarril fue perdiendo protagonismo en Uruguay. Las políticas de transporte cambiaron, los servicios se fueron reduciendo y los talleres fueron disminuyendo su actividad. Sin embargo, el conjunto ferroviario logró conservar gran parte de su valor histórico y patrimonial. En 1975, el sitio fue declarado Monumento Histórico Nacional. En 2010 se inauguró el museo estación peñarol dentro del propio edificio de la estación, donde hoy se conservan objetos originales como telégrafo, taquillas, y memorias de los empleados que participaron de las dos guerras mundiales. En 2011 fue declarado bien de interés Departamental.    Desde 2019, la estación no opera para pasajeros debido a las obras del ferrocarril central. Sin embargo el predio sigue activo; trabajan allí unos 150  funcionarios y el museo es administrado por el Círculo de Estudios Ferroviarios del Uruguay. El barrio, ese que comenzó como campo abierto a finales del siglo XIX, sigue siendo hoy barrio obrero, con su plaza,su arquitectura de ladrillo visto y su historia intacta.     Desde sus inicios, la Estación Peñarol fue un motor de desarrollo para el barrio y para el país. Su actividad impulsó el crecimiento industrial, la formación de una comunidad obrera y la consolidación de una identidad propia. Actualmente, su valor permanece como parte fundamental del patrimonio histórico y cultural del Uruguay.",
+      conclusion:
+        "La historia de la Estación de Peñarol y su entorno industrial, resume, la historia del Uruguay moderno en miniatura. En un solo barrio se unen los grandes  procesos que definieron al país; la llegada de la inversión extranjera y su impacto territorial, la diferencia de clase, la formación de la clase obrera organizada, la influencia de la inmigracion europea en la cultura local, y la transformación de un espacio rural en un espacio urbano con identidad propia.      Lo que más me resulta significativo de esta historia es la paradoja que encierra; Peñarol fue construido por una empresa británica, con capitales extranjeros. Sin embargo, los trabajadores que vivieron allí (uruguayos, ingleses, italianos, alemanes) lo convirtieron en algo genuinamente propio. Lo que comenzó como una inversión económica se transformó en una comunidad con identidad, cultura e historia.",
+    },
+
+    resenaEN: {
+      title: "Born on the Rails: The Origin of Peñarol",
+      autor: "Por Carolina Olivera",
+      introduction:
+        "Have you ever wondered why Peñarol wears black and yellow, or why its supporters proudly call themselves &quot;Carboneros&quot;? Most people know Peñarol as one of the most successful football clubs in Uruguay and South America. However, its story began long before famous players, championships, and crowded stadiums. The origins of the club are closely connected to railways, British workers, and the development of a neighborhood in Montevideo. Understanding this history helps us see why Peñarol is much more than a football team.",
+      history:
+        "The story began in 1891 with the creation of the Central Uruguay Railway Cricket Club (CURCC). The club was founded by employees of the British railway company Central Uruguay Railway. At first, different sports were practiced, but football soon became the most popular activity. During that period, many British workers lived and worked in Uruguay. They brought new ideas, technologies, and customs with them. One of those customs was football, a sport that was still new in the country.",
+      characteristic:
+        "As football became more popular, the club grew and developed a strong connection with the community around it. The railway workshops were located in the Peñarol  neighborhood, where many workers and their families lived. Over time, the institution became closely linked to the area and eventually adopted the name Club Atlético Peñarol. In this way, the history of the club became connected to the history of the neighborhood itself. Another interesting aspect of Peñarol&#39;s origin is its colors. The black and yellow colors were inspired by a famous British locomotive called &quot;The Rocket&quot;, designed by engineer George Stephenson. Today, these colors are recognized by football fans throughout South America. The club&#39;s nickname, &quot;Carbonero&quot;, also reflects its railway roots. It comes from the coal that was used to power steam locomotives. Even today, the nickname reminds supporters of the club&#39;s connection to the railway industry.",
+      importance:
+        "Peñarol&#39;s origin is important because it tells a story that goes beyond sport. It shows how immigration, industry, and cultural exchange influenced Uruguay&#39;s development. Understanding these origins helps us appreciate how different cultures contributed to the country&#39;s identity and how football became such an important part of Uruguayan life. The club became a symbol of effort, community, and identity. If those railway workers had not brought football to Uruguay, the history of the club might have been very different.",
+      end: "In conclusion, Peñarol is not only a football club but also an important part of Uruguayan history. I believe that understanding its origins helps us appreciate its importance in Uruguayan culture. More than one hundred years later, its railway heritage continues to live through its name, colors, nickname, and supporters. Its story reminds us that every great institution has an origin, and that those origins continue to shape the present.",
+    },
   },
   {
     id: 3,
