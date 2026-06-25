@@ -31,12 +31,16 @@ const articulos = [
       "En la actualidad, la plaza no solo tiene un valor histórico o institucional sino también social. Es un lugar donde la gente se encuentra, se realizan manifestaciones y también actos oficiales, como por ejemplo el cambio de mando presidencial. Sin embargo su significado no es fijo sino que cambia con el tiempo según cómo lo viven las personas y el Estado. Desde una mirada más crítica, la Plaza Independencia puede entenderse como un lugar donde se mezcla la memoria, el poder y la identidad. La existencia del mausoleo de Artigas hace que se planteen preguntas sobre cómo los gobiernos usan figuras históricas para dar más legitimidad a su autoridad. Por eso el espacio público no es neutral, es un lugar donde se discuten y se construyen ideas sobre el pasado y el presente. También la figura de Artigas ha sido interpretada de diferentes maneras a lo largo del tiempo, lo que muestran que la memoria del país no es algo fijo, sino que cambia. La plaza refleja esos cambios, porque lo que en un momento se ve como homenaje, en otro puede verse como una forma de uso público o de construcción de identidad.",
     conclusion:
       "En conclusión, la Plaza Independencia no es solo un lugar de la ciudad, sino un espacio donde se une la historia, la política y la cultura. Su desarrollo muestra cambios desde la sociedad uruguaya desde el siglo XIX hasta hoy en día. Entenderla no es solo mirar su arquitectura o su historia, sino que también pensar como los espacios públicos ayudan a construir la identidad y la memoria de un país.",
-    title: "",
-    introduction: "",
-    history: "",
-    characteristic: "",
-    importance: "",
-    end: "",
+    title: "A Symbol of Uruguay’s National Identity",
+    introduction:
+      "The Mausoleum of General José Gervasio Artigas is the place where the remains of the Uruguayan hero José Gervasio Artigas are buried. It is located beneath the equestrian monument dedicated to him in Plaza Independencia, in the center of Montevideo. The remains are formally guarded by the Blandengues Regiment of Artigas. Today, the mausoleum is one of the most important historical and symbolic sites in Uruguay.",
+    history:
+      "The idea of building a monument to Artigas began in the late nineteenth century during the presidency of Máximo Santos. A project was approved to honor Artigas as the founder of the Eastern nation, and Plaza Independencia was chosen because of its symbolic importance. In 1884, the foundation stone was laid and a sculpture competition was organized, although the winning project was never completed. At the beginning of the twentieth century, during the government of José Batlle y Ordóñez, the project was revived. New laws were approved and an international competition was held to select the final design. The winning proposal belonged to the Italian sculptor Ángel Zanelli, whose monument was inaugurated on February 28, 1923, with official ceremonies, military parades, and public celebrations. Many years later, during the civic-military dictatorship, an underground mausoleum was constructed beneath the monument to permanently house Artigas’ remains. The mausoleum was inaugurated on June 19, 1977, and became the final resting place of Uruguay’s national hero.",
+    characteristic:
+      "The mausoleum was designed by architects Lucas Ríos Demalde and Alejandro Morón. It was built mainly in granite and features a solemn underground structure. One of its most distinctive elements is an opening above the urn that allows natural light to enter the chamber. The site is permanently guarded by members of the Blandengues Regiment, who perform ceremonial duties in honor of Artigas.",
+    importance:
+      "The mausoleum is more than a burial site. It represents the memory, values, and legacy of José Gervasio Artigas. It is also an important place for national ceremonies, commemorations, and tributes. Throughout its history, the mausoleum has been the subject of political and social debates, particularly because it was built during the dictatorship and later became a symbol of democratic reflection on the country's past.",
+    end: "Today, the Mausoleum of José Gervasio Artigas remains one of Uruguay’s most significant historical landmarks. As the resting place of the nation’s hero, it connects citizens with their history and serves as a powerful symbol of national identity, remembrance, and respect for Artigas’ enduring legacy.",
   },
   {
     id: 2,
