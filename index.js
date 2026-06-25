@@ -17,10 +17,13 @@ const articulos = [
     subtitulo: "El corazón de Montevideo",
     autor: "por Valentina Bruno",
     categoria: "Historia",
+
     imagen: "/proyecto-revista-Front-end-/img/plaza-antes.jpg",
     imagenHover: "/proyecto-revista-Front-end-/img/plaza-ahora.avif",
+
     resumen:
-      "Uno de los edificios más emblemáticos del país. Este lugar forma parte de la identidad urbana de Uruguay...",
+      "El corazón de Montevideo y símbolo de la identidad nacional. La Plaza Independencia conecta el pasado y el presente del Uruguay",
+
     introduccion:
       "La plaza independencia es el espacio público principal de la ciudad de Montevideo y uno de los lugares más importantes del Uruguay por su historia política y cultural. Está ubicada en un punto clave, entre la Ciudad Vieja y la Ciudad Nueva, lo que la convierte en un lugar que conecta el pasado colonial con el desarrollo moderno de la capital. En el centro se encuentra el Monumento y Mausoleo del prócer nacional Jose Gervasio Artigas, una figura muy importante en la independencia y en la formación del país.",
     historia:
