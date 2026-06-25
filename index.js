@@ -14,8 +14,8 @@ const articulos = [
   {
     id: 1,
     titulo: "Plaza Independencia",
-    subtitulo: "",
-    autor: "",
+    subtitulo: "El corazón de Montevideo",
+    autor: "por Valentina Bruno",
     categoria: "Historia",
     imagen: "/proyecto-revista-Front-end-/img/plaza-antes.jpg",
     imagenHover: "/proyecto-revista-Front-end-/img/plaza-ahora.avif",
