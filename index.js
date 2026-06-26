@@ -45,6 +45,7 @@ const articulos = [
       "The mausoleum is more than a burial site. It represents the memory, values, and legacy of José Gervasio Artigas. It is also an important place for national ceremonies, commemorations, and tributes. Throughout its history, the mausoleum has been the subject of political and social debates, particularly because it was built during the dictatorship and later became a symbol of democratic reflection on the country's past.",
     end: "Today, the Mausoleum of José Gervasio Artigas remains one of Uruguay’s most significant historical landmarks. As the resting place of the nation’s hero, it connects citizens with their history and serves as a powerful symbol of national identity, remembrance, and respect for Artigas’ enduring legacy.",
   },
+
   {
     id: 2,
     titulo: "Estación Peñarol",
@@ -57,12 +58,6 @@ const articulos = [
 
     resumen:
       "La Estación Peñarol y su complejo ferroviario transformaron la forma de trabajar y vivir en Uruguay.",
-
-    datos: {
-      ubicacion: "Montevideo",
-      fundacion: "1891",
-      tipo: "Patrimonio Industrial",
-    },
 
     galeria: ["/img/estacion1.jpg", "/img/estacion2.jpg", "/img/estacion3.jpg"],
 
@@ -83,6 +78,7 @@ const articulos = [
 
     resenaEN: {
       title: "Born on the Rails: The Origin of Peñarol",
+
       autor: "Por Carolina Olivera",
       introduction:
         "Have you ever wondered why Peñarol wears black and yellow, or why its supporters proudly call themselves &quot;Carboneros&quot;? Most people know Peñarol as one of the most successful football clubs in Uruguay and South America. However, its story began long before famous players, championships, and crowded stadiums. The origins of the club are closely connected to railways, British workers, and the development of a neighborhood in Montevideo. Understanding this history helps us see why Peñarol is much more than a football team.",
