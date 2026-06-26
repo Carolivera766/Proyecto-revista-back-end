@@ -25,9 +25,9 @@ const articulos = [
       "El corazón de Montevideo y símbolo de la identidad nacional. La Plaza Independencia conecta el pasado y el presente del Uruguay",
 
     galeria: [
-      "/img/estacion3.jpg",
+      "/proyecto-revista-Front-end-/img/plaza independencia noche.jpg",
       "/proyecto-revista-Front-end-/img/plaza-antes.jpg",
-      "/img/estacion3.jpg",
+      "/proyecto-revista-Front-end-/img/plaza-hoy.avif",
     ],
 
     resenaES: {
@@ -56,9 +56,9 @@ const articulos = [
         "The mausoleum is more than a burial site. It represents the memory, values, and legacy of José Gervasio Artigas. It is also an important place for national ceremonies, commemorations, and tributes. Throughout its history, the mausoleum has been the subject of political and social debates, particularly because it was built during the dictatorship and later became a symbol of democratic reflection on the country's past.",
       end: "Today, the Mausoleum of José Gervasio Artigas remains one of Uruguay’s most significant historical landmarks. As the resting place of the nation’s hero, it connects citizens with their history and serves as a powerful symbol of national identity, remembrance, and respect for Artigas’ enduring legacy.",
       foto: [
-        "/proyecto-revista-Front-end-/img/estacion.jpg",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/proyecto-revista-Front-end-/img/mausoleo1.jpg",
+        "/proyecto-revista-Front-end-/img/mausoleo.jpg",
+        "/proyecto-revista-Front-end-/img/mausoleo2.JPG",
       ],
     },
   },
@@ -119,6 +119,7 @@ const articulos = [
     id: 3,
     titulo: "Skatepark Buceo",
     subtitulo: "",
+    autor: "por Julieta Gonzalez",
     categoria: "Cultural",
 
     imagen: "/proyecto-revista-Front-end-/img/skate-antes.jpg",
@@ -127,9 +128,9 @@ const articulos = [
     resumen: "Uno de los edificios más emblemáticos del país.",
 
     galeria: [
-      "/img/estacion-actual.webp",
-      "/img/estacion2.jpg",
-      "/img/estacion3.jpg",
+      "/proyecto-revista-Front-end-/img/skate-antes.jpg",
+      "/proyecto-revista-Front-end-/img/skate-actual.jpeg",
+      "/proyecto-revista-Front-end-/img/skatepark.png",
     ],
 
     resenaES: {
@@ -144,16 +145,16 @@ const articulos = [
 
     resenaEN: {
       title: "",
-      author: "for ",
+      author: "for Julieta Gonzalez",
       introduction: "",
       history: "",
       characteristic: "",
       importance: "",
       end: "",
       foto: [
-        "/proyecto-revista-Front-end-/img/estacion.jpg",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/proyecto-revista-Front-end-/img/skate-antes.jpg",
+        "/proyecto-revista-Front-end-/img/skate-actual.jpeg",
+        "/proyecto-revista-Front-end-/img/skatepark.png",
       ],
     },
   },
