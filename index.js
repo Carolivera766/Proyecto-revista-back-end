@@ -221,7 +221,8 @@ const articulos = [
   {
     id: 5,
     titulo: "Palacio Legislativo",
-    subtitulo: "",
+    subtitulo: "Uno de los edificios más emblemáticos del país",
+    author: "Axel Podesta ",
     categoria: "Historia",
 
     imagen: "/Proyecto-revista-Front-end-/img/palacio.jpg",
@@ -260,8 +261,8 @@ const articulos = [
         "Beyond being a governmental space, the Hall of Lost Steps is where Uruguay honors its most notable figures. Writers like Mario Benedetti and Eduardo Galeano, poet Juana de Ibarbourou, painter Carlos Páez Viaró, footballer Alcides Ghiggia, along with former presidents Tabaré Vázquez and José Mujica, have all been honored there. The hall has also welcomed international meetings, concerts, and art exhibitions.",
       end: "The decoration wasn’t completely finalized until 1964 — almost forty years after the official opening in 1925. The palace was constructed slowly and thoughtfully, spanning generations, and using materials from Uruguayan earth along with artwork crafted by both local and international artists. The result is a building that truly embodies its country while also speaking in a universal language. That blend — so local in its creation and so broad in its vision — makes it stand apart from any other parliament in the world.",
       foto: [
-        "/Proyecto-revista-Front-end-/img/estacion.jpg",
-        "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/Proyecto-revista-Front-end-/img/Palacio Legislativo.jpg",
+        "/Proyecto-revista-Front-end-/img/Palacio legislativo lateral.jpg",
         "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
       ],
     },
