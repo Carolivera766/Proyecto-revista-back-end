@@ -248,13 +248,17 @@ const articulos = [
     },
 
     resenaEN: {
-      title: "",
-      author: "for ",
-      introduction: "",
-      history: "",
-      characteristic: "",
-      importance: "",
-      end: "",
+      title: "Built from the Ground Up: Montevideo’s Legislative Palace",
+      author: "for Axel Podesta ",
+      introduction:
+        "The Legislative Palace in Montevideo stands out as one of South America’s most striking public buildings. But here’s the thing — its uniqueness isn’t just in its appearance; it’s in the story of its creation.",
+      history:
+        "One of the main decisions during construction was to source materials from Uruguay itself. Instead of importing stone from Europe, the government opened quarries all over the country specifically for this project. Marble and granite were gathered from various regions, pulling over fifty types of stone right from Uruguayan soil. The most recognized quarry, “Nueva Carrara” in Maldonado, provided marble selected by architect Moretti back in 1915 for both the exterior and interior. Some skeptics wondered if Uruguayan marble could stand up to the demands of such an ambitious structure. They were proven wrong. More than a century later, that stone remains intact. Choosing local stone was a clear statement of confidence — in Uruguayan resources, the skills of Uruguayan workers, and in the potential of a small country to create something remarkable with its own materials. The initial budget in 1908 was set at 2.5 million gold pesos, but, as the project evolved, it ended up growing.",
+      characteristic:
+        "The palace also serves as a museum. Moretti enriched the interiors with colored glass windows, mosaics, bronze sculptures, silk fabrics, and golden accents on the walls. The Hall of Lost Steps features three magnificent stained-glass windows from Milan, sculptures by Uruguayan artist Edmundo Prati, and mosaics crafted by Italian artist Giovanni Buffa. Additionally, José Belloni, another Uruguayan sculptor, decorated the ceiling. There’s also a significant art collection known as the Pinacoteca. Notable pieces include large paintings depicting key moments in Uruguayan history by Juan Manuel Blanes and Manuel Rosé. The Ballroom showcases ceiling paintings by Enrique Albertazzi and two enormous murals on its walls. These elements are not mere decoration — they reflect national identity, positioned at the core of the country’s democracy.",
+      importance:
+        "Beyond being a governmental space, the Hall of Lost Steps is where Uruguay honors its most notable figures. Writers like Mario Benedetti and Eduardo Galeano, poet Juana de Ibarbourou, painter Carlos Páez Viaró, footballer Alcides Ghiggia, along with former presidents Tabaré Vázquez and José Mujica, have all been honored there. The hall has also welcomed international meetings, concerts, and art exhibitions.",
+      end: "The decoration wasn’t completely finalized until 1964 — almost forty years after the official opening in 1925. The palace was constructed slowly and thoughtfully, spanning generations, and using materials from Uruguayan earth along with artwork crafted by both local and international artists. The result is a building that truly embodies its country while also speaking in a universal language. That blend — so local in its creation and so broad in its vision — makes it stand apart from any other parliament in the world.",
       foto: [
         "/Proyecto-revista-Front-end-/img/estacion.jpg",
         "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
