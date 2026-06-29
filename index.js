@@ -236,7 +236,7 @@ const articulos = [
     ],
     resenaES: {
       introduccion:
-        "El Palacio Legislativo de Montevideo es el edificio público más importante del Uruguay.",
+        "El Palacio Legislativo de Montevideo: arquitectura e historia de un monumento nacional",
       historia:
         "El Palacio Legislativo de Montevideo es el edificio público más importante del Uruguay. Desde su inauguración en 1925 funciona como sede del Poder Legislativo y en él se pueden ver, en cada columna y en cada material elegido, el esfuerzo que hizo el país por construir algo que durara y que representara sus ideas. Conocer cómo nació y cómo se construyó este edificio es, en cierta forma, conocer una parte clave de la historia del Uruguay.",
       caracteristicas:
