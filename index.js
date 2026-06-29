@@ -18,16 +18,16 @@ const articulos = [
     autor: "por Valentina Bruno",
     categoria: "Historia",
 
-    imagen: "/proyecto-revista-Front-end-/img/plaza-antes.jpg",
-    imagenHover: "/proyecto-revista-Front-end-/img/plaza-ahora.avif",
+    imagen: "/Proyecto-revista-Front-end-/img/plaza-antes.jpg",
+    imagenHover: "/Proyecto-revista-Front-end-/img/plaza-ahora.avif",
 
     resumen:
       "El corazón de Montevideo y símbolo de la identidad nacional. La Plaza Independencia conecta el pasado y el presente del Uruguay",
 
     galeria: [
-      "/img/estacion3.jpg",
-      "/proyecto-revista-Front-end-/img/plaza-antes.jpg",
-      "/img/estacion3.jpg",
+      "/Proyecto-revista-Front-end-/img/plaza independencia noche.jpg",
+      "/Proyecto-revista-Front-end-/img/plaza-antes.jpg",
+      "/Proyecto-revista-Front-end-/img/plaza-hoy.avif",
     ],
 
     resenaES: {
@@ -56,9 +56,9 @@ const articulos = [
         "The mausoleum is more than a burial site. It represents the memory, values, and legacy of José Gervasio Artigas. It is also an important place for national ceremonies, commemorations, and tributes. Throughout its history, the mausoleum has been the subject of political and social debates, particularly because it was built during the dictatorship and later became a symbol of democratic reflection on the country's past.",
       end: "Today, the Mausoleum of José Gervasio Artigas remains one of Uruguay’s most significant historical landmarks. As the resting place of the nation’s hero, it connects citizens with their history and serves as a powerful symbol of national identity, remembrance, and respect for Artigas’ enduring legacy.",
       foto: [
-        "/proyecto-revista-Front-end-/img/estacion.jpg",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/Proyecto-revista-Front-end-/img/mausoleo1.jpg",
+        "/Proyecto-revista-Front-end-/img/mausoleo.jpg",
+        "/Proyecto-revista-Front-end-/img/mausoleo2.JPG",
       ],
     },
   },
@@ -70,16 +70,16 @@ const articulos = [
     autor: "Por Carolina Olivera",
     categoria: "Industrial",
 
-    imagen: "/proyecto-revista-Front-end-/img/estacion.jpg",
-    imagenHover: "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+    imagen: "/Proyecto-revista-Front-end-/img/estacion.jpg",
+    imagenHover: "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
 
     resumen:
       "La Estación Peñarol y su complejo ferroviario transformaron la forma de trabajar y vivir en Uruguay.",
 
     galeria: [
-      "/proyecto-revista-Front-end-/img/estacion.jpg",
-      "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-      "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+      "/Proyecto-revista-Front-end-/img/Vapor.JPG",
+      "/Proyecto-revista-Front-end-/img/boletos.jpg",
+      "/Proyecto-revista-Front-end-/img/cruce-tren.jpg",
     ],
 
     resenaES: {
@@ -108,9 +108,9 @@ const articulos = [
         "Peñarol&#39;s origin is important because it tells a story that goes beyond sport. It shows how immigration, industry, and cultural exchange influenced Uruguay&#39;s development. Understanding these origins helps us appreciate how different cultures contributed to the country&#39;s identity and how football became such an important part of Uruguayan life. The club became a symbol of effort, community, and identity. If those railway workers had not brought football to Uruguay, the history of the club might have been very different.",
       end: "In conclusion, Peñarol is not only a football club but also an important part of Uruguayan history. I believe that understanding its origins helps us appreciate its importance in Uruguayan culture. More than one hundred years later, its railway heritage continues to live through its name, colors, nickname, and supporters. Its story reminds us that every great institution has an origin, and that those origins continue to shape the present.",
       foto: [
-        "/proyecto-revista-Front-end-/img/curcc1900.jpg",
-        "/proyecto-revista-Front-end-/img/origen-obrero-popular.jpg",
-        "/proyecto-revista-Front-end-/img/curcc_plantel.png",
+        "/Proyecto-revista-Front-end-/img/curcc1900.jpg",
+        "/Proyecto-revista-Front-end-/img/cruce-tren.jpg",
+        "/Proyecto-revista-Front-end-/img/curcc_plantel.png",
       ],
     },
   },
@@ -119,17 +119,18 @@ const articulos = [
     id: 3,
     titulo: "Skatepark Buceo",
     subtitulo: "",
+    autor: "por Julieta Gonzalez",
     categoria: "Cultural",
 
-    imagen: "/proyecto-revista-Front-end-/img/skate-antes.jpg",
-    imagenHover: "/proyecto-revista-Front-end-/img/skate-actual.jpeg",
+    imagen: "/Proyecto-revista-Front-end-/img/skate-antes.jpg",
+    imagenHover: "/Proyecto-revista-Front-end-/img/skate-actual.jpeg",
 
     resumen: "Uno de los edificios más emblemáticos del país.",
 
     galeria: [
-      "/img/estacion-actual.webp",
-      "/img/estacion2.jpg",
-      "/img/estacion3.jpg",
+      "/Proyecto-revista-Front-end-/img/skate-antes.jpg",
+      "/Proyecto-revista-Front-end-/img/skate-actual.jpeg",
+      "/Proyecto-revista-Front-end-/img/skatepark.png",
     ],
 
     resenaES: {
@@ -144,16 +145,16 @@ const articulos = [
 
     resenaEN: {
       title: "",
-      author: "for ",
+      author: "for Julieta Gonzalez",
       introduction: "",
       history: "",
       characteristic: "",
       importance: "",
       end: "",
       foto: [
-        "/proyecto-revista-Front-end-/img/estacion.jpg",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/Proyecto-revista-Front-end-/img/skate-antes.jpg",
+        "/Proyecto-revista-Front-end-/img/skate-actual.jpeg",
+        "/Proyecto-revista-Front-end-/img/skatepark.png",
       ],
     },
   },
@@ -166,8 +167,8 @@ const articulos = [
     autor: "por Alexandra Rivero",
     categoria: "Naturaleza",
 
-    imagen: "/proyecto-revista-Front-end-/img/parque-rodo.jpg",
-    imagenHover: "/proyecto-revista-Front-end-/img/parque-ahora.webp",
+    imagen: "/Proyecto-revista-Front-end-/img/parque-rodo.jpg",
+    imagenHover: "/Proyecto-revista-Front-end-/img/parque-ahora.webp",
 
     resumen:
       "Un parque donde el pasado y el presente se encuentran bajo los árboles",
@@ -210,9 +211,9 @@ const articulos = [
 
       end: "",
       foto: [
-        "/proyecto-revista-Front-end-/img/estacion.jpg",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/Proyecto-revista-Front-end-/img/estacion.jpg",
+        "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
       ],
     },
   },
@@ -223,8 +224,8 @@ const articulos = [
     subtitulo: "",
     categoria: "Historia",
 
-    imagen: "/proyecto-revista-Front-end-/img/palacio.jpg",
-    imagenHover: "/proyecto-revista-Front-end-/img/palacio-actual.jpg",
+    imagen: "/Proyecto-revista-Front-end-/img/palacio.jpg",
+    imagenHover: "/Proyecto-revista-Front-end-/img/palacio-actual.jpg",
 
     resumen: "Uno de los edificios más emblemáticos del país.",
 
@@ -254,9 +255,9 @@ const articulos = [
       importance: "",
       end: "",
       foto: [
-        "/proyecto-revista-Front-end-/img/estacion.jpg",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
-        "/proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/Proyecto-revista-Front-end-/img/estacion.jpg",
+        "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
+        "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
       ],
     },
   },
