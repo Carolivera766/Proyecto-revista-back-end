@@ -118,43 +118,51 @@ const articulos = [
   {
     id: 3,
     titulo: "Skatepark Buceo",
-    subtitulo: "",
+    subtitulo: "Historia y reflexión...",
     autor: "por Julieta Gonzalez",
     categoria: "Cultural",
 
     imagen: "/Proyecto-revista-Front-end-/img/skate-antes.jpg",
     imagenHover: "/Proyecto-revista-Front-end-/img/skate-actual.jpeg",
 
-    resumen: "Uno de los edificios más emblemáticos del país.",
+    resumen: "",
 
     galeria: [
-      "/Proyecto-revista-Front-end-/img/skate-antes.jpg",
+      "/Proyecto-revista-Front-end-/img/skate-campeonato-2014.jpg",
       "/Proyecto-revista-Front-end-/img/skate-actual.jpeg",
-      "/Proyecto-revista-Front-end-/img/skatepark.png",
+      "/Proyecto-revista-Front-end-/img/skate-park-bmx.png",
     ],
 
     resenaES: {
-      subtitulo: "",
       introduccion:
-        "Este lugar forma parte de la identidad urbana de Uruguay...",
-      historia: "El origen de este sitio se encuentra ligado...",
-      caracteristicas: "Entre los aspectos más destacados...",
-      importancia: "Actualmente este sitio sigue ocupando...",
-      conclusion: "La historia de este lugar demuestra...",
+        "El Skatepark de Buceo, ubicado sobre la rambla montevideana, es uno de los espacios públicos más importantes para la cultura urbana uruguaya. Más allá de su función deportiva, este lugar tiene una historia de varias décadas en la que se mezcla lo que antes no era aceptado y lo que después se volvió oficial, la calle y las decisiones del gobierno, el riesgo y la salud. Volver a su origen y pensar en su lugar en la sociedad de hoy permite entender cómo un espacio físico puede convertirse en un lugar lleno de sentido para quienes lo viven. \n Antes de existir como un espacio oficial el skate en Uruguay se practicaba en la calle, no había ningún lugar específicamente para eso. Durante las décadas de 1970 y 1980 andar en skate era una actividad mal vista por la gran parte de la sociedad, se la asociaba al ruido en las veredas, a las caídas en las plazas y a los grafitis, y se la consideraba una forma de rebeldía juvenil más que un deporte. En la zona del Buceo, sobre la costa de Montevideo, ya había señales de esa práctica desde fines de los años setenta, cuando algunos jóvenes empezaron a inventar recorridos en veredas, canteros y escaleras del barrio. Esos primeros intentos anticipaban lo que dos décadas más tarde se iba a convertir en un espacio propio para el skate.",
+      historia:
+        "El cambio definitivo llegó el 19 de setiembre de 1999, cuando se inauguró el Skatepark de Buceo, el primer espacio de este tipo construido en el país. Su creación fue parte del 'Proyecto Rambla', una serie de obras urbanas impulsadas durante la intendencia del arquitecto Mariano Arana (1995-2005) para mejorar la costa montevideana y dar respuesta a los jóvenes que practicaban deportes urbanos. La obra, a cargo de la empresa Stiler S.A., no fue un proyecto pensado solo desde el estado, el arquitecto encargado del diseño habló con referentes del grupo de skaters locales que recién empezaba a formarse, ellos aportaron ideas sobre cómo ubicar los obstáculos y qué estilo de pista querían. El resultado fue una superficie semienterrada de 390 metros cuadrados, con bordes curvos, rampas, una pirámide y vista al mar, pensada a partir de referencias de otros países y de los consejos de los propios skaters.",
+      caracteristicas:
+        "Desde que abrió, el skatepark se convirtió en un escenario compartido por una gran variedad de prácticas: el skateboarding clásico, el surf-skate, el longboard, el roller aggressive, los patines y la bicicleta BMX convivían ahí todos los días, cada uno con sus propios códigos de uso del espacio. Esta mezcla no está regida por reglas escritas, sino por acuerdos que se aprenden con el tiempo y con la convivencia diaria, lo que convierte al lugar en una pequeña escuela de organización espontánea.",
+      importancia:
+        "La importancia cultural del Skatepark de Buceo va mucho más allá de lo deportivo. Sus paredes guardan grafitis históricos, sus jornadas se acompañan de música, torneos como el 'Torneo ABC' o el 'Skatepark Fest', y actividades que mezclan disciplinas como el surf-skate. Ahí se armaron los vínculos que dieron origen a la Asociación Uruguaya de Skateboarding, y generaciones de jóvenes descubrieron, junto al skate, otras formas de cultura urbana como el hip hop, el punk o el breakdance. Para muchos de los que van el lugar funciona además como un espacio de desahogo y de pertenencia, practicar ahí es, en palabras de quienes lo frecuentan, una forma de sacarse las emociones de encima y de sentirse parte de un grupo.",
+      conclusion:
+        "Pensar en la historia de este lugar invita también a una reflexión sobre su lugar en el presente. El skate pasó de ser una práctica mal vista y asociada a la rebeldía a convertirse en un deporte olímpico, reconocido a nivel internacional. El Skatepark de Buceo sigue funcionando más de dos décadas después de abrir, como un espacio que la gente se apropió desde abajo, donde la convivencia se construye entre quienes lo habitan y no solo desde las reglas que lo regulan. \n En la sociedad de hoy el caso del Skatepark de Buceo tiene un valor que va más allá de lo recreativo. Es un ejemplo de cómo un espacio puede ir cambiando de sentido con el paso del tiempo entre todos los que lo usan, y de cómo distintas generaciones, desde quienes lo soñaron en la informalidad de los años setenta hasta quienes hoy lo recorren, construyen ahí una memoria compartida. El cariño que generaciones de gurises le tienen a este lugar, al punto de llamarlo 'una segunda casa', confirma que su valor no se mide en metros cuadrados de material, sino en la cultura social y el refugio que significa para algunos.",
     },
 
     resenaEN: {
-      title: "",
+      title:
+        "Wheels on the Pavement: The Story of How Skateboarding Found a Home in Uruguay",
       author: "for Julieta Gonzalez",
-      introduction: "",
-      history: "",
-      characteristic: "",
-      importance: "",
-      end: "",
+      introduction:
+        "In Montevideo in the 90s, skate meant something different than it does today. For the adults, it was just noise and revolt. For the teenagers riding it, it was almost the opposite, a way to be different, to claim a small piece of the street as their own. Skateboarding arrived in Uruguay tied to rebellion, not to medals or training plans, and that detail explains a lot about how the sport grew here.",
+      history:
+        "There was no real skate culture before this. A photograph from 1979, taken at one of the first informal spots near Buceo, shows just how rough those early days were, cracked pavement and few DIY spots. Even with so little to work with, the level in that photo is impressive for the time, proof that skill came long before any proper infrastructure did. Kids built their own tricks on stairs, wood ramps, and any flat surface that worked. The sound of wheels on pavement was linked to rap and rock, to graffiti, to a whole subculture that most people did not understand and did not try to understand either.",
+      characteristic:
+        "That started to change little by little. Around the same years a skatepark opened in Buceo, the first one built in the country, a generation of skaters began to organize. One name comes up again and again: Kike Machado. He started his own brand, Play, and in 2001 opened Planeta Skateshop, which became something bigger than a store. Skaters met there, planned competitions, and built a real community out of what used to be a group of strangers riding in the same plazas. The Asociación Uruguaya de Skateboarding grew out of this same period, giving the sport its first formal structure.",
+      importance:
+        "Technology changed the game just as much as any skatepark did. Early skaters recorded their tricks on VHS tapes, then on DVDs, and passed them around like treasure. When YouTube and later TikTok appeared, that process became instant. A teenager in Montevideo could watch a trick filmed in Barcelona or California the same day it happened, and try it the next afternoon on a local ramp. Uruguayan skating stopped growing only from inside and started growing in conversation with the rest of the world.",
+      end: "That conversation eventually reached the biggest stage possible: the Olympic Games. Skateboarding is now an official Olympic sport, and Uruguay is part of that story, even if in a small way. But the part of the story that matters most might still be the first one. Long before any competition or medal, skateboarding in Uruguay was a way for a group of kids to say they existed, on their own terms, on streets that were not built for them.",
       foto: [
-        "/Proyecto-revista-Front-end-/img/skate-antes.jpg",
-        "/Proyecto-revista-Front-end-/img/skate-actual.jpeg",
-        "/Proyecto-revista-Front-end-/img/skatepark.png",
+        "/Proyecto-revista-Front-end-/img/skate-spot-1979.jpg",
+        "/Proyecto-revista-Front-end-/img/skate-street.jpeg",
+        "/Proyecto-revista-Front-end-/img/skate-municipio.png",
       ],
     },
   },
