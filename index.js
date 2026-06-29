@@ -230,9 +230,9 @@ const articulos = [
     resumen: "Uno de los edificios más emblemáticos del país.",
 
     galeria: [
-      "/img/estacion-actual.webp",
-      "/img/estacion2.jpg",
-      "/img/estacion3.jpg",
+      "img/Palacio por fuera.jpg",
+      "img/Palacio por dentro.jpg",
+      "img/palacio-actual.jpg",
     ],
     resenaES: {
       introduccion:
