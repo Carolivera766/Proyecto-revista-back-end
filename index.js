@@ -174,9 +174,9 @@ const articulos = [
       "Un parque donde el pasado y el presente se encuentran bajo los árboles",
 
     galeria: [
-      "/img/estacion-actual.webp",
-      "/img/estacion2.jpg",
-      "/img/estacion3.jpg",
+      "/Proyecto-revista-Front-end-/img/monumento rodo.jpg",
+      "/Proyecto-revista-Front-end-/img/vegetacion.jpg",
+      "/Proyecto-revista-Front-end-/img/juegos del parque.jpg",
     ],
 
     resenaES: {
@@ -191,7 +191,8 @@ const articulos = [
       importancia:
         "Lo que distingue al Parque Rodó de cualquier otro espacio verde de Montevideo es que este parque brinda naturaleza, cultura y recreación en un solo lugar.  En el mismo predio donde se puede caminar entre monumentos centenarios y sentarse frente al lago, a pocos metros funciona el único parque de diversiones mecánicas de Montevideo con más de un siglo de historia, cuya primera atracción fue la montaña rusa de 1889 antes de que incluso el parque tuviera su nombre actual. En este 2026 el parque tuvo una gran renovación, incorporando una Torre de caída libre con 27 metros de altura, una nueva montaña rusa ( la cual no volvía desde 2013) y juegos como UFO 3D, spin y saltamontes. Sin dejar atrás a los irremplazables juegos clásicos como el mambo, los autitos chocadores y el 360. Estas atracciones convocan a familias enteras a disfrutar de lo que fue y lo que es.",
 
-      conclusion: "falta terminarla ",
+      conclusion:
+        "El parque es un lugar que acompaña a toda la familia , desde los adultos quienes disfrutan de pasear y  relajarse en el pasto, hasta los jóvenes que se reúnen a disfrutar no solo del parque sino de las atracciones. En una época moderna como la que vivimos , donde la tecnología es la fuente principal del entretenimiento. Los espacios verdes permiten desconectarse de las pantallas, reducir el ritmo de la vida cotidiana y compartir momentos con otras personas en un ambiente natural. Es por eso que los espacios verdes dentro de la ciudad cumplen un rol fundamental para el bienestar de las personas. Está comprobado que el contacto con la naturaleza reduce el estrés, mejora el estado de ánimo y ayuda a las relaciones interpersonales. En entornos urbanos donde las ciudades crecen y aumentan la construcción , los espacios verdes se vuelven una necesidad. No se trata simplemente de embellecer la ciudad, sino que ofrecen a sus habitantes un alivio frente al ruido, la contaminación y el ritmo acelerado de la vida urbana, permitiendo recuperar energías y mantener un equilibrio emocional que el entorno urbano, por sí solo, difícilmente puede ofrecer. ",
     },
 
     resenaEN: {
@@ -211,9 +212,14 @@ const articulos = [
 
       end: "",
       foto: [
+<<<<<<< Updated upstream
         "/Proyecto-revista-Front-end-/img/estacion.jpg",
         "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
         "/Proyecto-revista-Front-end-/img/estacion-actual.webp",
+=======
+        "/Proyecto-revista-Front-end-/img/rambla.jpg",
+        "/Proyecto-revista-Front-end-/img/atardecer.jpg",
+>>>>>>> Stashed changes
       ],
     },
   },
